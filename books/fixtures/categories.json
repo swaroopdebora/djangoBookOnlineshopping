@@ -1,0 +1,13 @@
+[{"pk": 1, "model": "books.category", "fields": {"name": "Classic Literature", "friendly_name": "Classic Literature"}}, 
+{"pk": 2, "model": "books.category", "fields": {"name": "Mystery and Crime", "friendly_name": "Mystery and Crime"}}, 
+{"pk": 3, "model": "books.category", "fields": {"name": "Romance", "friendly_name": "Romance"}}, 
+{"pk": 4, "model": "books.category", "fields": {"name": "Historical Fiction", "friendly_name": "Historical Fiction"}}, 
+{"pk": 5, "model": "books.category", "fields": {"name": "price", "friendly_name": "By Price"}},
+{"pk": 6, "model": "books.category", "fields": {"name": "rating", "friendly_name": "By Ratingans"}},
+{"pk": 7, "model": "books.category", "fields": {"name": "category", "friendly_name": "By Category"}},
+{"pk": 8, "model": "books.category", "fields": {"name": "Deals", "friendly_name": "Deals"}}, 
+{"pk": 9, "model": "books.category", "fields": {"name": "Programming", "friendly_name": "Programming"}},
+{"pk": 11, "model": "books.category", "fields": {"name": "Web Desinging", "friendly_name": "Web Desinging"}},
+{"pk": 10, "model": "books.category", "fields": {"name": "Software", "friendly_name": "Software"}}
+
+]
