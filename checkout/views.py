@@ -5,6 +5,7 @@ from django.conf import settings
 from .forms import OrderForm
 from .models import Order, OrderLineItem
 from books.models import Book
+
 from bag.contexts import bag_contents
 
 import stripe
@@ -50,7 +51,7 @@ def checkout(request):
                                 book_size=size,
                             )
                             order_line_item.save()
-                except Book.DoesNotExist:
+                except book.DoesNotExist:
                     messages.error(request, (
                         "One of the books in your bag wasn't found in our database. "
                         "Please call us for assistance!")
