@@ -3,6 +3,7 @@ from django.conf import settings
 from django.shortcuts import get_object_or_404
 from books.models import Book
 
+
 def bag_contents(request):
 
     bag_items = []
@@ -23,7 +24,7 @@ def bag_contents(request):
         else:
             book = get_object_or_404(Book, pk=item_id)
             for size, quantity in item_data['items_by_size'].items():
-                total += quantity * product.price
+                total += quantity * book.price
                 book_count += quantity
                 bag_items.append({
                     'item_id': item_id,
