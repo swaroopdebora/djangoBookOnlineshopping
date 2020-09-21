@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/hero.jpg') no-repeat  fixed;
+    background-image: url('https://www.anglicannews.org/media/1345762/black_web_booksonline.jpg') no-repeat  fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
