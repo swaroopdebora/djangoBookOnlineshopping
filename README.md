@@ -38,28 +38,28 @@ compete stripe payment
 
 
 ## Technologies Used
+#### HTML, CSS, BootStrap
+#### Plain Javascript 
+#### The project used BootStrap theme to have reusable CSS styling and make the site responsive.
+#### Icons / Images were taken from Font-Awesome website
+#### Styling was taken from Google fonts
+#### Used Python for business logic implementatin
+#### django framework (Django==3.1.1) to speedup development and use standaized features like allauth (django-allauth==0.42.0) to have a robust built-in authentication system for users, SQL lite for DB 
+#### asgiref==3.2.10
+#### dj-database-url==0.5.0
+#### django-countries - to A country field for Django models that provides all ISO 3166-1 countries as choices
+#### django-crispy-forms - to have DRY Django forms
+#### SQL lite - SQLite in combination with Python's sqlite3 interface. SQLite is a single file relational database bundled with most standard Python installs.
+#### WhiteNoise - WhiteNoise allows your web app to serve its own static files, making it a self-contained unit that can be deployed anywhere without relying on nginx, Amazon S3 or any other external service.
+#### gunicorn - Python Web Server Gateway Interface (WSGI) HTTP server. 
+#### psycopg2-binary - binary package is a practical choice for development and testing 
+#### Python Imaging Library -  support for opening, manipulating, and saving many different image file formats. 
+#### psycopg2-binary, python3-openid -  Python packages to support use of the OpenID decentralized identity system in your application, update to Python 3.
+#### pytz -This library allows accurate and cross platform timezone calculations
+#### requests-oauthlib -  libraries to provide an easy-to-use Python interface for building OAuth1 and OAuth2 clients.
+#### sqlparse - It provides support for parsing, splitting and formatting SQL statements.
+#### stripe - The Stripe Python library provides convenient access to the Stripe API from applications written in the Python language. 
 
-The project used BootStrap theme to have reusable CSS styling and make the site responsive.
-Icons / Images were taken from Font-Awesome website
-Styling was taken from Google fonts
-Used Python for business logic implementatin
-django framework to speedup development and use standaized features like allauth
-SQL lite for DB
-asgiref==3.2.10
-dj-database-url==0.5.0
-Django==3.1.1
-django-allauth==0.42.0
-django-countries - to A country field for Django models that provides all ISO 3166-1 countries as choices
-django-crispy-forms - to have DRY Django forms
-gunicorn -  a Python WSGI HTTP Server for UNIX
-oauthlib - OAuthLib is a framework which implements the logic of OAuth1 or OAuth2 without assuming a specific HTTP request object or web framework.
-Python Imaging Library -  support for opening, manipulating, and saving many different image file formats. 
-psycopg2-binary, python3-openid -  Python packages to support use of the OpenID decentralized identity system in your application, update to Python 3.
-pytz -This library allows accurate and cross platform timezone calculations
-requests-oauthlib -  libraries to provide an easy-to-use Python interface for building OAuth1 and OAuth2 clients.
-sqlparse - It provides support for parsing, splitting and formatting SQL statements.
-stripe - The Stripe Python library provides convenient access to the Stripe API from applications written in the Python language. 
-whitenoise -It's designed to work with a CDN for high-traffic sites so you don't have to sacrifice performance to benefit from simplicity.
 
 ## Testing
 
@@ -99,12 +99,12 @@ It has been tested for iphone6/7/8 , also in iPad.
 Any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 
-Deployment to heroku
+## Deployment to heroku
 
 
 
 ![Heroku URL] (/)
 
-Credits
+## Credits
 Bootstrap theme taken from
 (https://getbootstrap.com/docs/4.4/getting-started/introduction/#starter-template)
