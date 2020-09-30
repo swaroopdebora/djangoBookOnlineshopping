@@ -66,6 +66,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'online_book.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 TEMPLATES = [
     {
